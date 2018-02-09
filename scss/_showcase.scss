@@ -1,0 +1,65 @@
+.showcase {
+  .showcase-text {
+    padding: 2rem;
+  }
+  .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+  }
+  @media (min-width: 768px) {
+    .showcase-text {
+      padding: 1rem 7rem 1rem 7rem;
+    }
+  }
+}
+
+.rowRestaurant {
+  border: 0px solid #dedede;
+  border-radius: 10px; 
+  -moz-border-radius: 10px; 
+  -webkit-border-radius: 10px; 
+  width: 80%;
+  margin: auto;
+  margin-top: 1em;
+  background-color: #ededed;
+}
+
+.textDesc {
+  
+}
+
+.textStatus
+{
+  border: 1px solid #dedede;
+  border-radius: 10px 0px 0px 10px; 
+  -moz-border-radius: 10px 0px 0px 10px; 
+  -webkit-border-radius: 10px 0px 0px 10px; 
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-weight: bold;
+  font-size: 1.3em;
+  width: 5%;
+  height: 100%;
+}
+
+.passed
+{
+  background-color: $green;
+}
+
+.failed
+{
+  background-color: $red;
+}
+
+.pass_w_cond
+{
+  background-color: $orange;
+}
+
+.btn-tiny
+{
+  font-size: 0.6em;
+  padding: 0.25em;
+}
